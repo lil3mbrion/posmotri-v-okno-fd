@@ -57,6 +57,7 @@ ol {
 .result {
   grid-area: result;
   max-width: 711px;
+  margin-top: 78px;
 }
 
 .search-form {
@@ -80,14 +81,14 @@ ol {
 
 .content__details {
   width: 100%;
-  min-height: 535px;
   grid-area: content__details;
   min-width: 397px;
+  height: 100%;
 }
 
 .title {
   margin-bottom: 26px;
-  font-family: Oswald;
+  font-family: 'Oswald', sans-serif;
   font-size: 75px;
   font-weight: 700;
   line-height: 70.5px;
@@ -106,7 +107,7 @@ ol {
 .result__video {
   width: 711px;
   height: 386px;
-  object-fit: fill;
+  object-fit: cover;
 }
 
 .content__video-card {
@@ -117,7 +118,7 @@ ol {
 .content__video-card-thumbnail {
   width: 194px;
   height: 103px;
-  object-fit: fill;
+  object-fit: cover;
   object-position: center;
 }
 
@@ -301,10 +302,6 @@ button:active {
 }
 
 .content__card-link:active {
-  background-color: #545050;
-}
-
-.content__card-link_current:active {
   background-color: #545050;
 }
 
